@@ -1,0 +1,12 @@
+text = "Think and wonder, wonder and think."
+
+hash_object = hashlib.md5(text.encode())
+md5_hash = hash_object.hexdigest()
+Format MD5 hash to hex
+print(md5_hash)
+
+
+
+output:
+
+e21bf3fe43a5974d726935f5c63f3b13
